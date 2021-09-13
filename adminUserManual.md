@@ -5,21 +5,21 @@ date: 2021-09-08 09:40:12
 
 # Store Manual Documentation
 
-## Getting started with Misiki
+## Getting started with Anne
 
 ### Overview:
 
-Misiki is a E-Commerce platform that allows anyone to set up an online store and sell their products. Administrator will have enormous number of features from where he can control the flow of the misiki.
+Anne is a E-Commerce platform that allows anyone to set up an online store and sell their products. Administrator will have enormous number of features from where he/she can control the flow of the anne.
 
 Vendor(seller) can control their store by the easy to handle dashboard. Vendor has the ability to manage sales,products,orders,payments,customers,import and export,monitoring etc. vendor can also see the analysis reports of the performance of the store.
 
-This guide will help you through the basic steps to open your Misiki store and start selling within a day. Once you sign up and set up your store, you don't have to do anything else — your store is up and running. Meaning it's open, and customers can check your storefront and make orders.
+This guide will help you through the basic steps to open your Anne store and start selling within a day. Once you sign up and set up your store, you don't have to do anything else — your store is up and running. Meaning it's open, and customers can check your storefront and make orders.
 
 Okay, let’s get started!
 
 ### SignUp: -
 
-- You can sign up to Misiki Platform on your browser. All you need is an valid email address, and You can set up account.
+- You can sign up to Anne Platform on your browser. All you need is an valid email address, and You can set up account.
 
 - If you are not registered to website then you can create a new account using sign up.
 
@@ -27,25 +27,25 @@ Okay, let’s get started!
 
 - You can fill details as in image below:
 
-<center><img src="./misiki/sign-up.png"></center>
+<center><img src="./anne/sign-up.png"></center>
 
 Note: Email must be unique, not registerd with us already.
 
 ### SignIn and signOut: -
 
-- You can log in to Misiki on your browser.
+- You can log in to Anne on your browser.
 
 #### To log in:
 
-- Go to the Misiki admin panel login page.
+- Go to the Anne admin panel login page.
 - If you signed up with an email address and password, enter them and click Sign In.
 
-<center><img src="./misiki/login.png"></center>
+<center><img src="./anne/login.png"></center>
 Note: password should be case sensitive.
 
 #### To log out:
 
--Go to your Misiki admin panel at [https://admin.misiki.io/](https://admin.misiki.io/)
+-Go to your Anne admin panel at [https://admin.anne.biz/](https://admin.anne.biz/)
 -Click on your left sidebar bottom at logout.
 
 ### Resetting Password: -
@@ -54,23 +54,23 @@ Note: password should be case sensitive.
 
 #### To reset your forgotten password:
 
-- Go to go to [https://admin.misiki.io/](https://admin.misiki.io/)
+- Go to go to [https://admin.anne.biz/](https://admin.anne.biz/)
 - Click on Forgot password
-- Enter the email address associated with your Misiki account and click Send email.
-  <center><img src="./misiki/forget-pwd1.png"></center>
+- Enter the email address associated with your Anne account and click Send email.
+  <center><img src="./anne/forget-pwd1.png"></center>
 
 * You're sent an email with a link to reset your password. In the email, click the reset password link.
 * Create a new password for your account and click Reset password:
-* Now You will be able logged in to your Misiki account with your new password.
-  <center><img src="./misiki/reset-pwd.png"></center>
+* Now You will be able logged in to your Anne account with your new password.
+  <center><img src="./anne/reset-pwd.png"></center>
 
 ### Store Set Up: -
 
 - After Successfull signup, it will redirect to Store set up page , it will ask for the store configuration.
 
-<center><img src="./misiki/store-set-up.png"></center>
+<center><img src="./anne/store-set-up.png"></center>
 
-<center><img src="./misiki/store-set-up1.png"></center>
+<center><img src="./anne/store-set-up1.png"></center>
 
 The fields shown above have to be filled by you to open up a new shop and after store set up you will be able to access the store feature.
 
@@ -88,13 +88,13 @@ In the Dashboard there are different option that we can see such like:
 - Latest Orders: This block will show the latest five orders placed on the store for the vendor’s products. Latest orders will have a different background color on the basis of the order status.
 - Transactions: This block will show the latest five payments on the store for the vendor’s products.
 
-<center><img src="./misiki/dashboard.png"></center>
+<center><img src="./anne/dashboard.png"></center>
 
 ### SideBar: -
 
-- Misiki sidebar is a useful component of website navigation design. You can see all the service in one place through the misiki sidebar, you can manage as per need.
+- Anne sidebar is a useful component of website navigation design. You can see all the service in one place through the anne sidebar, you can manage as per need.
 
-<center><img src="./misiki/side-bar.png"></center>
+<center><img src="./anne/side-bar.png"></center>
 
 ### Orders
 
@@ -111,13 +111,13 @@ You can also filter your orders by:
 -Payment mode
 -filter through the status
 
-<center><img src="./misiki/order-list.png"></center>
+<center><img src="./anne/order-list.png"></center>
 
 #### Update order:
 
 -In Order list when click on any order right at arrow sign.
 
-  <center><img src="./misiki/order-update.png"></center>
+  <center><img src="./anne/order-update.png"></center>
 
 -The order view page of the vendor is shown above. Here different block are available which
 show all the information related to the order.
@@ -146,13 +146,13 @@ Order Details:
 - Abandonment Carts is an ecommerce feature where vendor can see all the abandoned cart ,and manage them.
 - Abandoned cart is cart of customers who add items to their online shopping cart, but exit without completing the purchase.
 
-<center><img src="./misiki/abandoned-cart-list.png"></center>
+<center><img src="./anne/abandoned-cart-list.png"></center>
 
 - You can use the searchbar for filter.
 
 Cart Export: You can export all yours carts in the csv format by going to the manage abandoned cart page where the cart grid is displayed. On the right corner of the grid there is an excel logo from where the you can export the csv which will have grid columns.
 
-<center><img src="./misiki/excel-and-search.png"></center>
+<center><img src="./anne/excel-and-search.png"></center>
 
 ### Payments
 
@@ -161,13 +161,13 @@ Cart Export: You can export all yours carts in the csv format by going to the ma
 - Payment section shows the payments list with details about the order customer have placed through the account.
 - It gives us the information about the customer , payment status and orderId.
 
-<center><img src="./misiki/payment-list.png"></center>
+<center><img src="./anne/payment-list.png"></center>
 
 - You can use the searchbar for filter.
 
 Payment Export: You can export all yours payments in the csv format by going to the list page where the payment grid is displayed. On the right corner of the grid there is an excel logo from where the you can export the csv which will have grid columns.
 
-<center><img src="./misiki/excel-and-search.png"></center>
+<center><img src="./anne/excel-and-search.png"></center>
 
 Payment attribues:
 
@@ -194,15 +194,15 @@ Payment attribues:
 
 ### Wishlists
 
-- Wishlist is a simple listing feature available on Misiki app, It lets customer to add and collect all the items that customer wish to purchase. All the products that customer want to own can now be put up in one easy-to-reach destination.
+- Wishlist is a simple listing feature available on Anne app, It lets customer to add and collect all the items that customer wish to purchase. All the products that customer want to own can now be put up in one easy-to-reach destination.
 
-<center><img src="./misiki/wishlist-list.png"></center>
+<center><img src="./anne/wishlist-list.png"></center>
 
 - You can use the searchbar for filter.
 
 Wishlist Export: You can export all yours wishlist in the csv format by going to the list page where the wishlist grid is displayed. On the right corner of the grid there is an excel logo from where the you can export the csv which will have grid columns.
 
-<center><img src="./misiki/excel-and-search.png"></center>
+<center><img src="./anne/excel-and-search.png"></center>
 
 ### Customers
 
@@ -216,7 +216,7 @@ Wishlist Export: You can export all yours wishlist in the csv format by going to
 - You can see photo of every user that is active and are performing any role in the website.
 - You can verified and active the user from here.
 
-<center><img src="./misiki/customer-list.png"></center>
+<center><img src="./anne/customer-list.png"></center>
 
 #### Searching and Export customers
 
@@ -224,10 +224,10 @@ Wishlist Export: You can export all yours wishlist in the csv format by going to
 
 To search customers:
 
--From your Misiki admin panel, go to Customers.
+-From your Anne admin panel, go to Customers.
 -Search for a full name or email address.
 
-<center><img src="./misiki/excel-and-search.png"></center>
+<center><img src="./anne/excel-and-search.png"></center>
 
 To export customers:
 
@@ -235,7 +235,7 @@ To export customers:
 
 To export specific customer list:
 
--From your Misiki admin panel, go to Customers page.
+-From your Anne admin panel, go to Customers page.
 -Click on the Excel logo.
 As a result, a CSV file will be downloaded to your computer.
 
@@ -245,7 +245,7 @@ You can change an existing customer profile to update their information.
 
 To edit a customer’s information:
 
-1. From your Misiki admin panel, go to Customers.
+1. From your Anne admin panel, go to Customers.
 2. Click the pencil icon of the customer profile you want to edit.
 3. In the Edit customer dialog, you can change a customer’s:
    -firstName and lastName
@@ -256,20 +256,20 @@ To edit a customer’s information:
    -active and verified
 4. Click Save to confirm your changes
 
-<center><img src="./misiki/customer-edit.png"></center>
+<center><img src="./anne/customer-edit.png"></center>
 
 ### Products
 
 Products are the physical goods, digital files, and services that you sell. To create a product, you need to specify the name and upload product images. In addition, you can add product details that help your clients better understand the product: add available sizes, SKU, description, etc. You don't have to provide every detail for each product.
 
-From your Misiki admin panel, in sidebar go to Products → All Products to view and edit product details.
+From your Anne admin panel, in sidebar go to Products → All Products to view and edit product details.
 To add many products at once, you can upload products in bulk using a CSV-formatted import file.
 
 ### Product List
 
 ### Adding a new product
 
--From your Misiki admin panel, go to Product → All Products → Add New Product.
+-From your Anne admin panel, go to Product → All Products → Add New Product.
 -click on Add New Product and it will redirect to product edit page.
 
 - In here we have many options
@@ -281,7 +281,7 @@ Note: The quality of your product images directly affects your ability to genera
 -Each product image should be of uniform size and style across all products you sell.
 -Use high-quality images, so customers can see any fine details.
 
-<center><img src="./misiki/product-edit0.png"></center>
+<center><img src="./anne/product-edit0.png"></center>
 
 #### Name and description
 
@@ -301,7 +301,7 @@ Size: In size you will have to choose size, you can also create new size in case
 
 Color: In color section you can choose any color from board.
 
-<center><img src="./misiki/product-edit1.png"></center>
+<center><img src="./anne/product-edit1.png"></center>
 
 #### Pricing
 
@@ -309,7 +309,7 @@ Discount Price: The price that you're charging for the product.
 
 Price: This price is mrp(marketing price).
 
-<center><img src="./misiki/product-pricing.png"></center>
+<center><img src="./anne/product-pricing.png"></center>
 
 #### Categories
 
@@ -319,7 +319,7 @@ Price: This price is mrp(marketing price).
 
 - In this section choose the categories.
 
-<center><img src="./misiki/product-edit-categories.png"></center>
+<center><img src="./anne/product-edit-categories.png"></center>
 
 #### Product ribbons
 
@@ -327,13 +327,13 @@ Price: This price is mrp(marketing price).
 
 Product ribbons are colored labels that are displayed in your catalog above product images. They can help visually highlight certain products on your storefront. These tags contain your custom text. for example: Active, Featured,Hot,New,Sale
 
-<center><img src="./misiki/product-edit-ribbons.png"></center>
+<center><img src="./anne/product-edit-ribbons.png"></center>
 
 #### Advance Option
 
 This section has some mini sections as follows:
 
-<center><img src="./misiki/product-edit2.png"></center>
+<center><img src="./anne/product-edit2.png"></center>
 
 ##### Advance Option:
 
@@ -389,13 +389,13 @@ EAN is a standardized barcode and marked on most commercialized products current
 
 These settings allow you to set specific SEO-related information on your product's page. When analyzing a webpage, search engines get information about its content from the so-called “meta tags”. This includes the page title and meta description. Search engines use meta tags to describe pages as they appear in the search results and rank them by relevance.
 
-Misiki automatically generates metadata based on your product's name and its description. Search engines display a limited number of characters, so you may want to re-write the page title and meta description. Edit page title and descriptions with relevant keywords so your product appears higher in search engine results.
+Anne automatically generates metadata based on your product's name and its description. Search engines display a limited number of characters, so you may want to re-write the page title and meta description. Edit page title and descriptions with relevant keywords so your product appears higher in search engine results.
 
 Page title –– The title is shown as a clickable link in search results. You can customize the title to target your clients’ interests more accurately.
 
 Meta description –– A short sentence summarizing the content of the product. Write a more detailed text describing your product offer. Meta descriptions can be any length, but Google generally truncates snippets to ~155–160 characters.
 
-<center><img src="./misiki/product-edit3.png"></center>
+<center><img src="./anne/product-edit3.png"></center>
 
 #### Shipping
 
@@ -403,7 +403,7 @@ This section will need in physical product only.
 Weight and Dimensions:
 -The product's actual weight and dimensions.
 
-<center><img src="./misiki/product-edit4.png"></center>
+<center><img src="./anne/product-edit4.png"></center>
 
 ### Specifications
 
@@ -417,14 +417,14 @@ Whenever you select the Television category , it will automatically show all the
 - Select Attribute Type(categories) from the drop down. If there is no attribute then create it via click on Add New feature.
 - After selecting the attribute type, now select the feature and fill the value of the feature.
 
-<center><img src="./misiki/product-edit5.png"></center>
+<center><img src="./anne/product-edit5.png"></center>
 
 #### Related products
 
 Some products complement each other well and it’s best to buy them together. Use the related products feature to display the You may also like section in your online store as well as to cross-sell products in the cart. This feature helps you promote certain products and encourages customers to buy more.
 
 Related products:
-From your Misiki admin panel, go to Products.
+From your Anne admin panel, go to Products.
 Open the product page where you wish to recommend related products.
 Open the Related Products tab:
 
@@ -433,14 +433,14 @@ Display specific and random products:
 - In specific product you can selct the product .
 - If you want random product then you can enable the button of Display random products.
 
-<center><img src="./misiki/product-edit6.png"></center>
+<center><img src="./anne/product-edit6.png"></center>
 
 #### Group Products
 
 -When two or more products have common master id then other products will shown here with images.
 -On click of product ,you can move to those edit page also.
 
-<center><img src="./misiki/product-edit7.png"></center>
+<center><img src="./anne/product-edit7.png"></center>
 
 #### Preview in store
 
@@ -454,18 +454,18 @@ Click Preview Product to see how this product will look in your online store.
 
 -You will see all categories in tree structure. And by clicking on any category you will be able to edit the category.
 
-<center><img src="./misiki/categories.png"></center>
+<center><img src="./anne/categories.png"></center>
 
 #### Create category And Edit category
 
--From your Misiki admin, panel sidebar go to Products → Categories.
+-From your Anne admin, panel sidebar go to Products → Categories.
 -Click Add New Category.
 
-<center><img src="./misiki/category1.png"></center>
+<center><img src="./anne/category1.png"></center>
 
 - Fill the category details as per your need.
 
-<center><img src="./misiki/category2.png"></center>
+<center><img src="./anne/category2.png"></center>
 
 -In case you want to create a root category, you don't have to select parent category field.
 -In case you want to create sub category , you can choose a parent category.
@@ -484,13 +484,13 @@ Review is the nothing but a comment box in which customers give their reviews ab
 
 - Go to Products → Reviews.
 
-<center><img src="./misiki/reviews.png"></center>
+<center><img src="./anne/reviews.png"></center>
 
 -You can disable and delete review from here.
 
 Review Export: You can export all yours reviews in the csv format by going to the manage reviews page where the review grid is displayed. On the right corner of the grid there is an excel logo from where the you can export the csv which will have grid columns.
 
-<center><img src="./misiki/excel-and-search.png"></center>
+<center><img src="./anne/excel-and-search.png"></center>
 
 ### Popular Searches
 
@@ -504,18 +504,18 @@ Create new Popular Searches:
 -Now you can fill name and popularity.
 -Click on save icon at right side of bottom.
 
-<center><img src="./misiki/popular-searches1.png"></center>
+<center><img src="./anne/popular-searches1.png"></center>
 
 Popular searches List:
 
 - You can edit,clone and delete popular searches from here.
 
-<center><img src="./misiki/popular-searches.png"></center>
+<center><img src="./anne/popular-searches.png"></center>
 
 Popular Searches Export:
 You can export all yours popular searches in the csv format by going to the manage popular searches page where the popular searches grid is displayed. On the right corner of the grid there is an excel logo from where the you can export the csv which will have grid columns.
 
-<center><img src="./misiki/excel-and-search.png"></center>
+<center><img src="./anne/excel-and-search.png"></center>
 
 ### Brands
 
@@ -531,18 +531,18 @@ Create new Brand:
 -You can also upload image of the brand.
 -Click on save icon at right side of bottom.
 
-<center><img src="./misiki/brand1.png"></center>
+<center><img src="./anne/brand1.png"></center>
 
 Brands List:
 
 - You can edit,clone and delete brand from here.
 
-<center><img src="./misiki/brands.png"></center>
+<center><img src="./anne/brands.png"></center>
 
 Brand Export:
 You can export all yours brands in the csv format by going to the manage brands page where the brands grid is displayed. On the right corner of the grid there is an excel logo from where the you can export the csv which will have grid columns.
 
-<center><img src="./misiki/excel-and-search.png"></center>
+<center><img src="./anne/excel-and-search.png"></center>
 
 ### Sizes
 
@@ -558,18 +558,18 @@ Create new Size:
 -Now you can fill fill form for size details.
 -Click on save icon at right side of bottom.
 
-<center><img src="./misiki/size.png"></center>
+<center><img src="./anne/size.png"></center>
 
 Size List:
 
 - You can edit,clone and delete size from here.
 
-<center><img src="./misiki/sizes.png"></center>
+<center><img src="./anne/sizes.png"></center>
 
 Size Export:
 You can export all yours sizes in the csv format by going to the manage sizes page where the sizes grid is displayed. On the right corner of the grid there is an excel logo from where the you can export the csv which will have grid columns.
 
-<center><img src="./misiki/excel-and-search.png"></center>
+<center><img src="./anne/excel-and-search.png"></center>
 
 ## Import And Export
 
@@ -579,8 +579,8 @@ You can export all yours sizes in the csv format by going to the manage sizes pa
 ### Import Product
 
 -Product create one by one take a lot of time so for add product in bulk import product comes handy.
--Product import in store through is the fastest way to upload catalog or make bulk changes to products in an existing Misiki store catalog.
--When importing, Misiki converts the data from the uploaded import file into products in your online store.
+-Product import in store through is the fastest way to upload catalog or make bulk changes to products in an existing Anne store catalog.
+-When importing, Anne converts the data from the uploaded import file into products in your online store.
 -Only CSV format file allowed to import.
 -You can also see the sample import file format.
 
@@ -591,7 +591,7 @@ Once you’ve prepared your CSV file, you can import it into your store:
 -Click Choose file and select the CSV file from your computer.
 -After Sumit file wait for somtime and you will see all products thorough import details.
 
-<center><img src="./misiki/import-product.png"></center>
+<center><img src="./anne/import-product.png"></center>
 
 #### Import Details
 
@@ -599,7 +599,7 @@ Once you’ve prepared your CSV file, you can import it into your store:
 -You can see each raw information of the product ,like what happen to what raw.
 -At the time of tracking you can also refresh the details by clicking on refresh button at right bottom corner.
 
-<center><img src="./misiki/import-detail.png"></center>
+<center><img src="./anne/import-detail.png"></center>
 
 ### Import Category
 
@@ -608,17 +608,17 @@ Once you’ve prepared your CSV file, you can import it into your store:
 -In sidebar, go to Import/Exxport → Import Category.
 -When you csv file ready then choose file and upload it.
 
-<center><img src="./misiki/import-category.png"></center>
+<center><img src="./anne/import-category.png"></center>
 
 ### Export
 
 -Whenever you want to take a backup of your store , in that case you can use export feature.
--This feature will export file in csv format. And you can upload this file to misiki.
+-This feature will export file in csv format. And you can upload this file to anne.
 -You can export Products, Brands, Categories, Features, Sizes, Users and Orders.
 -You can apply filters and you can export data as per your choise.
 -When you click on Export All, automatically a csv file will download into your system with data.
 
-<center><img src="./misiki/exports.png"></center>
+<center><img src="./anne/exports.png"></center>
 
 ## Monitoring
 
@@ -636,14 +636,14 @@ Once you’ve prepared your CSV file, you can import it into your store:
 -You can also add new product from here via click on plus icon.
 -You will see product like these:
 
-<center><img src="./misiki/monitoring.png"></center>
+<center><img src="./anne/monitoring.png"></center>
 
 ## Banners
 
 Banners are used to make your store attractive to the customers.
 These banners contain image of sales, discounts and more.
 
-Misiki store have four types of banners as follows:
+Anne store have four types of banners as follows:
 
 - Slider: - This section controls the main page slider.
 - Hero: This banner used for page medium content.
@@ -657,19 +657,19 @@ Create Banner:
 -Banner type will decide the banner look and position.
 -Banner link will redict user to page on that link.
 
-<center><img src="./misiki/banner.png"></center>
+<center><img src="./anne/banner.png"></center>
 
 Banners List
 
 - You can edit,clone and delete banner from here.
 
-<center><img src="./misiki/banners.png"></center>
+<center><img src="./anne/banners.png"></center>
 
 Banner Export:
 
 You can export all yours banners in the csv format by going to the manage banners page where the banners grid is displayed. On the right corner of the grid there is an excel logo from where the you can export the csv which will have grid columns.
 
-<center><img src="./misiki/excel-and-search.png"></center>
+<center><img src="./anne/excel-and-search.png"></center>
 
 ## Utilities
 
@@ -681,17 +681,17 @@ A blog is a discussion or informational of store features.
 
 Create Blog
 
-<center><img src="./misiki/blog.png"></center>
+<center><img src="./anne/blog.png"></center>
 
 Blog List
 
-<center><img src="./misiki/blogs.png"></center>
+<center><img src="./anne/blogs.png"></center>
 
 Blog Export:
 
 You can export all yours blogs in the csv format by going to the manage blogs page where the blogs grid is displayed. On the right corner of the grid there is an excel logo from where the you can export the csv which will have grid columns.
 
-<center><img src="./misiki/excel-and-search.png"></center>
+<center><img src="./anne/excel-and-search.png"></center>
 
 ### Faq
 
@@ -699,17 +699,17 @@ Faq is a fequently asked question by customers.
 
 Create Faq:
 
-<center><img src="./misiki/faq.png"></center>
+<center><img src="./anne/faq.png"></center>
 
 Faq List
 
-<center><img src="./misiki/faqs.png"></center>
+<center><img src="./anne/faqs.png"></center>
 
 Faq Export:
 
 You can export all yours fequently asked questions in the csv format by going to the manage fequently asked questions page where the fequently asked questions grid is displayed. On the right corner of the grid there is an excel logo from where the you can export the csv which will have grid columns.
 
-<center><img src="./misiki/excel-and-search.png"></center>
+<center><img src="./anne/excel-and-search.png"></center>
 
 ## Store Settings
 
@@ -722,27 +722,27 @@ Store Name and Web Address:
 -Your store name is the name under which your store appears to customers.
 -Your store location defines which web address is displayed on customer-facing invoices and emails, and is also used when sharing products via social networks.
 
-<center><img src="./misiki/store-profile1.png"></center>
+<center><img src="./anne/store-profile1.png"></center>
 
 Store Currency:
 
 -You can add currency name and currency symbol.
 
-<center><img src="./misiki/store-profile2.png"></center>
+<center><img src="./anne/store-profile2.png"></center>
 
 Company Name and Email:
 
 -The official name of your business. If you don't have a registered business yet, specify your store name as the company name.
 -You can also add email of the company.
 
-<center><img src="./misiki/store-profile4.png"></center>
+<center><img src="./anne/store-profile4.png"></center>
 
 Company Address:
 
 -You can fill your company address here with phone number.
 -You can also search your store location in search address field.
 
-<center><img src="./misiki/store-profile5.png"></center>
+<center><img src="./anne/store-profile5.png"></center>
 
 Social Media Accounts:
 
@@ -757,21 +757,21 @@ Social Media Accounts:
 - Pinterest
 - Google
 
-<center><img src="./misiki/store-profile6.png"></center>
+<center><img src="./anne/store-profile6.png"></center>
 
 Storefront is Open:
 
 -In case you want to store status from open to close with a note, you can use this feature.
 
-<center><img src="./misiki/store-profile7.png"></center>
+<center><img src="./anne/store-profile7.png"></center>
 
 Custom Domain:
 
 -A domain is a unique address of your website on the Internet. People use the domain to locate and visit your site. Besides, it defines your brand and produces an instant, but lasting impression. It also affects your site position in the search engine results as the right keywords in your domain name improve your SEO ranking.
 
--If you already own a domain name, go ahead and connect the domain to your Misiki Instant Site. In case you don't have one yet, you can buy a domain from any third-party company that sells domain names.
+-If you already own a domain name, go ahead and connect the domain to your Anne Instant Site. In case you don't have one yet, you can buy a domain from any third-party company that sells domain names.
 
-<center><img src="./misiki/store-profile8.png"></center>
+<center><img src="./anne/store-profile8.png"></center>
 
 Store Description:
 
@@ -783,42 +783,42 @@ Tips to improve your store descriptions:
 
 - Avoid long sentences and complex vocabulary.
 
-<center><img src="./misiki/store-profile9.png"></center>
+<center><img src="./anne/store-profile9.png"></center>
 
 ### Store SEO
 
-SEO (or Search engine optimization) is the process of improving your site's ranking in search results in engines like Google, DuckDuckGo to generate free traffic to your online store. While some things can be manual, Misiki has the technical side covered for you –– all stores are optimized for search engines by default.
+SEO (or Search engine optimization) is the process of improving your site's ranking in search results in engines like Google, DuckDuckGo to generate free traffic to your online store. While some things can be manual, Anne has the technical side covered for you –– all stores are optimized for search engines by default.
 
 Preview:
 
 -You can preview store through this link.
 
-<center><img src="./misiki/store-seo1.png"></center>
+<center><img src="./anne/store-seo1.png"></center>
 
 Company SEO Attributes:
 
 -You can add company SEO attributes like- tile ,metadescription etc.
 
-<center><img src="./misiki/store-seo2.png"></center>
+<center><img src="./anne/store-seo2.png"></center>
 
 ### Store Images
 
 -You can upload images of the store , logo of your store and youtube video and more.
 
-<center><img src="./misiki/store-images.png"></center>
+<center><img src="./anne/store-images.png"></center>
 
 ### Store QR Code
 
--Your Misiki store QR Code is generated as soon as you create your store.
+-Your Anne store QR Code is generated as soon as you create your store.
 -You can share and download your QR Code from the sidebar settings → store.
 
-<center><img src="./misiki/store-qr.png"></center>
+<center><img src="./anne/store-qr.png"></center>
 
 ### Store Bank Account
 
 In This section store owner can fill account details, so order amount reflect in that account.
 
-<center><img src="./misiki/store-bussiness-detail.png"></center>
+<center><img src="./anne/store-bussiness-detail.png"></center>
 
 ## Profile
 
@@ -826,4 +826,4 @@ In This section store owner can fill account details, so order amount reflect in
 -Here you can update your profile information.
 -You can also close your account from here.
 
-<center><img src="./misiki/update-profile.png"></center>
+<center><img src="./anne/update-profile.png"></center>

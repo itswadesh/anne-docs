@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Misiki Docs',
-  description: 'Install and start Misiki with these simple steps',
+  title: 'Anne Docs',
+  description: 'Install and start Anne with these simple steps',
   head: [
     ['link', { rel: 'icon', href: '/assets/img/logo.png' }],
     [
@@ -30,7 +30,7 @@ module.exports = {
       // { text: 'API', link: '/api.html' },
       { text: 'Manual', link: '/manual.html' },
       // { text: 'History', link: '/history.html' },
-      { text: 'Misiki', link: 'https://www.misiki.io' },
+      { text: 'Anne', link: 'https://admin.anne.biz/' },
     ],
     serviceWorker: {
       updatePopup: true,
