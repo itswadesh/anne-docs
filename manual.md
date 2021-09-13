@@ -72,10 +72,6 @@ Review is the nothing but a comment box in which customers give their re-views a
 
 <center><img src="./img/review.png"></center>
 
-• In right corner of the page have subscribe link. One can follow or subscribe the web-site.
-
-<center><img src="./img/subscription.png"></center>
-
 ### Products: -
 
 Different variety of products can be seen & we can see the details of prod-ucts.A product can be a service or an item.
@@ -257,7 +253,7 @@ In the login service we can login from different social website.
 
 • SMS & Email: -
 
-In the SMS enable option when we enable the messaging facility which allow the admin to send a message regarding the offers & other subscription details.
+In the SMS enable option when we enable the messaging facility which allow the admin to send a message.
 
 • Payment: -
 
