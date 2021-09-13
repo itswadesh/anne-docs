@@ -1,5 +1,5 @@
 ---
-title: Store Vendor UserManual
+title: User Manual
 date: 2021-09-08 09:40:12
 ---
 

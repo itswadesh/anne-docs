@@ -10,7 +10,7 @@ actionLink: /installation-instructions.html
 #     details: This component based architecture results clean and modular code which has the power to acomodate any ecommerce customizations.
 #   - title: Performant
 #     details: Built upon the Full Stack Javascript framework with javascript based MongoDB database which makes it even faster.
-footer: Copyright © 2014-2021 Misiki Technologies
+footer: Copyright © Anne Biz
 ---
 
 <!--
@@ -73,8 +73,4 @@ Misiki is an evolution of Arialshop Javascript ecommerce first released 36 Earth
 ## Links
 
 - [Installation](/installation-instructions.html)
-- [Guide](/guide.html)
-- [Admin Guide](/admin-guide.html)
-- [Settings](/settings.html)
-- [Directory Structure](/directory-structure.html)
-- [History](/history.html)
+- [Store User Manual](/admin-user-manual.html)
