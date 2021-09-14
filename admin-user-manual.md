@@ -96,6 +96,8 @@ In the Dashboard there are different option that we can see such like:
 
 <center><img src="./anne/side-bar.png"></center>
 
+## My Sales
+
 ### Orders
 
 #### Search and filter orders:
@@ -204,7 +206,7 @@ Wishlist Export: You can export all yours wishlist in the csv format by going to
 
 <center><img src="./anne/excel-and-search.png"></center>
 
-### Customers
+## Customers
 
 #### User List
 
@@ -258,23 +260,23 @@ To edit a customer’s information:
 
 <center><img src="./anne/customer-edit.png"></center>
 
-### Products
+## Products
 
 Products are the physical goods, digital files, and services that you sell. To create a product, you need to specify the name and upload product images. In addition, you can add product details that help your clients better understand the product: add available sizes, SKU, description, etc. You don't have to provide every detail for each product.
 
 From your Anne admin panel, in sidebar go to Products → All Products to view and edit product details.
 To add many products at once, you can upload products in bulk using a CSV-formatted import file.
 
-### Product List
+### All Products
 
-### Adding a new product
+#### Adding a new product
 
--From your Anne admin panel, go to Product → All Products → Add New Product.
--click on Add New Product and it will redirect to product edit page.
+-From your Anne admin panel, go to Products → All Products → Add New Product.
+-Click on Add New Product button and it will redirect to product edit page.
 
 - In here we have many options
 
-#### Images
+##### Images
 
 In this section images show your customers what your products look like. Here you can upload images of front, side, underneath, close-up, etc., so customers can see what they are buying in detail.
 Note: The quality of your product images directly affects your ability to generate sales. Here are some tips:
@@ -283,7 +285,7 @@ Note: The quality of your product images directly affects your ability to genera
 
 <center><img src="./anne/product-edit0.png"></center>
 
-#### Name and description
+##### Name and description
 
 Name is a title for your product. When you name a product you should automatically make customers think about the most valuable components of your product, and what they can get when they buy from you.
 
@@ -303,39 +305,11 @@ Color: In color section you can choose any color from board.
 
 <center><img src="./anne/product-edit1.png"></center>
 
-#### Pricing
-
-Discount Price: The price that you're charging for the product.
-
-Price: This price is mrp(marketing price).
-
-<center><img src="./anne/product-pricing.png"></center>
-
-#### Categories
-
-- In product edit go to right bottom categories section.
-  -Categories help customers to faster navigate through the store and find the products as per their need.
-  -Categories are groups of products that a product is included in. The product can be assigned to one category or several categories.
-
-- In this section choose the categories.
-
-<center><img src="./anne/product-edit-categories.png"></center>
-
-#### Product ribbons
-
-- In product edit go to right bottom Product Ribbons section.
-
-Product ribbons are colored labels that are displayed in your catalog above product images. They can help visually highlight certain products on your storefront. These tags contain your custom text. for example: Active, Featured,Hot,New,Sale
-
-<center><img src="./anne/product-edit-ribbons.png"></center>
-
 #### Advance Option
 
 This section has some mini sections as follows:
 
 <center><img src="./anne/product-edit2.png"></center>
-
-##### Advance Option:
 
 - In this section you can add fields:
   Gender-> The gender of the product.
@@ -352,10 +326,6 @@ This section has some mini sections as follows:
   Manufacturer-> The manufacturer of the product
   Manufacturing Date-> The manufacturer of the product.
   Expiry Date-> Expiry of the product.
-
-#### Inventory
-
-Stock Control: If you have a limited number of this product to sell, use the stock control section to specify the quantity in stock.
 
 ##### CODES:
 
@@ -385,7 +355,7 @@ EAN is a standardized barcode and marked on most commercialized products current
 -Gometrical size can refer to linear dimensions, area, or volume.
 -Size can also be measured in terms of mass, especially when assuming a density range.
 
-### SEO
+#### Product SEO
 
 These settings allow you to set specific SEO-related information on your product's page. When analyzing a webpage, search engines get information about its content from the so-called “meta tags”. This includes the page title and meta description. Search engines use meta tags to describe pages as they appear in the search results and rank them by relevance.
 
@@ -405,14 +375,14 @@ Weight and Dimensions:
 
 <center><img src="./anne/product-edit4.png"></center>
 
-### Specifications
+#### Specifications
 
 Product categories have some attributes and when product select the category , then product have access of that category attributes.
 
 For ex- Television categories have attributes like- In the box, charger type.
 Whenever you select the Television category , it will automatically show all the attributes of the category, and then you can easily fill them.
 
-#### Add specifications for product
+Add specifications for product:
 
 - Select Attribute Type(categories) from the drop down. If there is no attribute then create it via click on Add New feature.
 - After selecting the attribute type, now select the feature and fill the value of the feature.
@@ -442,7 +412,37 @@ Display specific and random products:
 
 <center><img src="./anne/product-edit7.png"></center>
 
-#### Preview in store
+#### Product Pricing
+
+Discount Price: The price that you're charging for the product.
+
+Price: This price is mrp(marketing price).
+
+<center><img src="./anne/product-pricing.png"></center>
+
+#### Product Categories
+
+- In product edit go to right bottom categories section.
+  -Categories help customers to faster navigate through the store and find the products as per their need.
+  -Categories are groups of products that a product is included in. The product can be assigned to one category or several categories.
+
+- In this section choose the categories.
+
+<center><img src="./anne/product-edit-categories.png"></center>
+
+#### Product ribbons
+
+- In product edit go to right bottom Product Ribbons section.
+
+Product ribbons are colored labels that are displayed in your catalog above product images. They can help visually highlight certain products on your storefront. These tags contain your custom text. for example: Active, Featured,Hot,New,Sale
+
+<center><img src="./anne/product-edit-ribbons.png"></center>
+
+#### Product Inventory
+
+Stock Control: If you have a limited number of this product to sell, use the stock control section to specify the quantity in stock.
+
+#### Product Preview in store
 
 Click Preview Product to see how this product will look in your online store.
 
