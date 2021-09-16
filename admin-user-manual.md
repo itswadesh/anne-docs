@@ -21,7 +21,7 @@ Okay, let’s get started!
 
 - You can sign up to Anne Platform on your browser. All you need is an valid email address, and You can set up account.
 - If you are not registered to website then you can create a new account using sign up.
-- After filling all details, click on sign up button, after this server will check the provided info is valid or not, if it is valid then it will create your account or if it detects that the info is invalid then you have to fill the details carefully.
+- After filling all details, click on `sign up` button, after this server will check the provided info is valid or not, if it is valid then it will create your account or if it detects that the info is invalid then you have to fill the details carefully.
 - Email must be unique, not registerd with us already.
 - You can fill details as in image below
 
@@ -34,7 +34,7 @@ Okay, let’s get started!
 #### To log in
 
 - Go to the Anne admin panel login page.
-- If you signed up with an email address and password, enter them and click Sign In.
+- If you signed up with an email address and password, enter them and click `Sign In`.
 - password should be case sensitive.
   <center><img src="./anne/login.png"></center>
 
@@ -49,14 +49,14 @@ Okay, let’s get started!
 
 #### To reset your forgotten password
 
-- Go to go to [https://admin.anne.biz/](https://admin.anne.biz/)
-- Click on Forgot password
-- Enter email address which is associated with your Anne account and click Send email.
+- Go to [https://admin.anne.biz/](https://admin.anne.biz/)
+- Click on `Forgot password`
+- Enter email address which is associated with your Anne account and click `Send email`.
 
   <center><img src="./anne/forget-pwd1.png"></center>
 
 - An email with a link will sent you for reset your password. In the email, click on reset password link.
-- Create a new password for your account and click Reset password
+- Create a new password for your account and click `Reset password`
 - Now You will be able logged in to your Anne account with your new password.
 
   <center><img src="./anne/reset-pwd.png"></center>
@@ -71,11 +71,11 @@ Okay, let’s get started!
 
 The fields shown above have to be filled by you to open up a new shop and after store set up you will be able to access the store feature. -->
 
-### Dashboard
+### Dashboard/Reports
 
 You can visit the dashboard page only After successfully loggedIn, Menu page will be listed in the left corner of the page & the 1st option that will be opened is Dashboard.
 
-In the Dashboard there are different option that we can see such like
+In the Dashboard there are different reports that we can see such like
 
 - Total Orders→ Total how many orders have been placed for vendor’s products will be shown here as a count.
 - Total users→ Total how many users in store will be shown here as a count.
@@ -95,7 +95,7 @@ In the Dashboard there are different option that we can see such like
 
 ### Profile
 
-- You can go to My Profile → profile in sidebar bottom.
+- In sidebar, go to My Profile → profile.
 - Here you can update your profile information.
 - You can also close your account from here.
 
@@ -103,11 +103,13 @@ In the Dashboard there are different option that we can see such like
 
 ## Configurations
 
-In sidebar , go to Settings → Store Settings.
+Before your platform goes live you need to configure the platform to set everything right and make it usable with no issues. In this section, you will set branding, configure Payment Provider, Email Service, Search Service provider, Newsletter, google analytic, Social Media login, etc. To do some configuration you may have to modify few config files in the system. Check this guide to know how to modify the .env environment file.
+
+- In sidebar , go to Settings → Store Settings.
 
 ### Email Configuration
 
-By default, the system is set up to log all mails into files. You have to configure this settings to send emails. You may use any of this supported services→ smtp, sendmail, mailgun, mandrill and sparkpost. To configure email, open the .env file and update these keys with your values.
+By default, the system is set up to log all mails into files. You have to configure this settings to send emails. You may use any of this supported services→ sendmail, mailgun, mandrill and sparkpost. To configure email, open the .env file and update these keys with your values.
 
 ::: warning
 
@@ -140,38 +142,42 @@ Finally, you may use a service like Mailtrap and the smtp driver to send your em
 
 The MAIL_FROM_ADDRESS and MAIL_FROM_NAME will be used to sent email by your marketplace where no specific sender information available to use.
 
-### System Settings
+### Store Settings/System Settings
 
-### Store Profile
+This is the time to configure your brand information and platform details. In this section, you can upload the logo and icon image, set the marketplace currency, active business area, system timezone, default language(visitors can still switch the language on the front-end), your business address, etc.
 
-**Store Name and Web Address**
+#### Store Profile
+
+- In Store Settings, you will redirect to store profile.
+
+##### Store Name and Web Address
 
 - Your store name is the name under which your store appears to customers.
 - Your store location defines which web address is displayed on customer-facing invoices and emails, and is also used when sharing products via social networks.
 
 <center><img src="./anne/store-profile1.png"></center>
 
-**Store Currency**
+##### Store Currency
 
 - You can add currency name and currency symbol.
 
 <center><img src="./anne/store-profile2.png"></center>
 
-**Company Name and Email**
+##### Company Name and Email
 
 - The official name of your business. If you don't have a registered business yet, specify your store name as the company name.
 - You can also add email of the company.
 
 <center><img src="./anne/store-profile4.png"></center>
 
-**Company Address**
+##### Company Address
 
 - You can fill your company address here with phone number.
 - You can also search your store location in search address field.
 
 <center><img src="./anne/store-profile5.png"></center>
 
-**Social Media Accounts**
+##### Social Media Accounts
 
 You can provide your social media url of your store, so customer can easily visit your store and its products.You can link account as follows
 
@@ -185,13 +191,13 @@ You can provide your social media url of your store, so customer can easily visi
 
 <center><img src="./anne/store-profile6.png"></center>
 
-**Storefront is Open**
+##### Storefront is Open
 
 In case you want to store status from open to close with a note, you can use this feature.
 
 <center><img src="./anne/store-profile7.png"></center>
 
-**Custom Domain**
+##### Custom Domain
 
 - A domain is a unique address of your website on the Internet. People use the domain to locate and visit your site. Besides, it defines your brand and produces an instant, but lasting impression. It also affects your site position in the search engine results as the right keywords in your domain name improve your SEO ranking.
 
@@ -199,7 +205,7 @@ In case you want to store status from open to close with a note, you can use thi
 
 <center><img src="./anne/store-profile8.png"></center>
 
-**Store Description**
+##### Store Description
 
 - Information about your store. You may also use videos, images, and animated elements that help to describe your store. Write unique description for rank higher in search engines.
 
@@ -211,42 +217,415 @@ In case you want to store status from open to close with a note, you can use thi
 
 <center><img src="./anne/store-profile9.png"></center>
 
-### Store SEO
+#### Store SEO
 
 SEO (or Search engine optimization) is the process of improving your site's ranking in search results in engines like Google, DuckDuckGo to generate free traffic to your online store. While some things can be manual, Anne has the technical side covered for you –– all stores are optimized for search engines by default.
 
-**Preview**
+##### Preview
 
 - You can preview store through this link.
 
 <center><img src="./anne/store-seo1.png"></center>
 
-**Company SEO Attributes**
+##### Company SEO Attributes
 
 - You can add company SEO attributes like- tile ,metadescription etc.
 
 <center><img src="./anne/store-seo2.png"></center>
 
-### Store Images
+#### Store Images
 
 You can upload images of the store , logo of your store and youtube video and more.
 
 <center><img src="./anne/store-images.png"></center>
 
-### Store QR Code
+#### Store QR Code
 
 - Your Anne store QR Code is generated as soon as you create your store.
 - You can share and download your QR Code from the sidebar settings → store.
 
 <center><img src="./anne/store-qr.png"></center>
 
-### Store Bank Account
+#### Store Bank Account
 
 In This section store owner can fill account details, so order amount reflect in that account.
 
 <center><img src="./anne/store-bussiness-detail.png"></center>
 
-## Banners
+### Store Payment
+
+This section allows you to control payment on store. By configuring payment you can perform the common task of processing payments on seller's behalf.
+
+- In sidebar, go to Settings → Payment.
+- You can choose payment gateway's from here.
+
+<center><img src="./anne/store-payment1.png"></center>
+
+#### Cashfree
+
+You can easily collect payments from your customers using cashfree. Cashfree Payment Gateway accepts domestic and international payments. You can easily collect payments using popular Payment Methods like Cards, UPI, Netbanking, Wallets, PayPal, EMI, and Pay Later options.
+
+##### Create Account
+
+To get started with Cashfree you must first create an account. To create an account,
+
+1.Go to the Cashfree website and click Create Account.
+2.Enter your Work Email Address and enter a password for your Cashfree account in the Create Password field. You will need this password to login later.
+3.Accept the terms and conditions and click Next.
+4.Enter your company details, i.e, your company Contact Number, Website URL/Application Link, and your Monthly Transaction Volume (INR). Click Next.
+5.Select one or more solutions that you looking for.
+6.Click Complete Signup. You will receive a verification email. Click the link in the email to verify your email address.
+7.Sign in to your Cashfree account using the credentials.
+
+##### Merchant Home Page
+
+By default, you are in the test environment. Click SWITCH TO PRODUCTION to access the live environment.
+
+<center><img src="./anne/cashfree1.png"></center>
+
+##### Account Activation
+
+You must activate your account to access the production environment. To activate the account, you must first fill in details about your business and upload and submit the required documents.
+
+Follow the steps below
+
+1. Sign in to the Merchant home page and click ACTIVATE on the desired product.
+2. Fill in the details and submit. These details will be sent for verification.
+   After successful verification, you can access the production environment for your business transactions.
+
+Information to be provided as part of the activation process is available below.
+
+General Information
+
+<center><img src="./anne/cashfree2.png"></center>
+
+Business Address
+
+<center><img src="./anne/cashfree3.png"></center>
+
+If your business address and GST registered address are different, clear the checkbox in the above screen and enter the GST registration address.
+
+Bank Details
+
+<center><img src="./anne/cashfree4.png"></center>
+
+KYC Details
+
+<center><img src="./anne/cashfree5.png"></center>
+
+The KYC information required differs based on the business type selected.
+
+##### My Account
+
+My Account section gives you control of overall activities around your account. You can control some of the basic account settings, two-factor authentication, security preferences, configure email notifications, manage users/aliases to provide access to the dashboard and monitor login history.
+
+To add a new alias
+
+1. Select your product > click User/Alias > click NEW ALIAS.
+2. Provide the Username, alias Name, Country, Phone, and Password.
+3. Select the status Active or Inactive for the new alias.
+4. Click CREATE ALIAS.
+
+<center><img src="./anne/cashfree6.png"></center>
+
+##### API Keys
+
+1. To generate or view your Test and Production API Keys, go to www.cashfree.com > click Login > enter your Email ID and Password provided during the signup process.
+2. Select the product that you are integrating with > click Credentials in the Product Dashboard.
+3. For authentication purposes, you need to re-enter your password. The Production and Test API keys are shown.
+
+#### Stripe Connect API
+
+Stripe Connect enables you to control credit card payment on behalf of merchant’s connected accounts. By configuring Stripe Connect API you can perform the common task of processing payments on a seller’s behalf. You’ll need CLIENT ID, SECRET KEY, PUBLISHABLE KEY and WEBHOOK SECRET from Stripe.
+
+> INFO Once the Stripe connect is configured. The same APIs can be used for vendor subscription billing, no extra configuration needed.
+
+##### Register Your Platform
+
+Very first you have to register your marketpalce platform with Stripe. Login into your Stripe dashboard and go to the Connected accounts section. Click Get Started button to activate connect account.
+
+<center><img src="./anne/stripe1.png"></center>
+Stripe Dashboard
+
+On next window, select Build a platform or marketplace option and proceed.
+
+<center><img src="./anne/stripe2.png"></center>
+Dashboard Stripe 2
+Choose Build a platform or marketplace
+
+Go to Settings from the sidebar and click Connect Settings.
+
+<center><img src="./anne/stripe3.png"></center>
+Stripe connect settings
+
+On the next screen Integration section get the client ID, we’ll need this ID later on this guide. Enable the OAuth settings based on your account type, If you’re confused then enable both. Now click Add URI button and give https://your_domain/admin/setting/stripe/redirect in the Redirect URI field.
+
+<center><img src="./anne/stripe4.png"></center>
+Stripe connect settings
+
+On the same screen scroll to Branding section and fill the form with your brand information, upload logo, and icon.
+
+**Get API credentials**
+
+Next, go to Developers API keys section from the sidebar and get the Publishable key and Secret key.
+
+<center><img src="./anne/stripe5.png"></center>
+
+**Handling Stripe Webhooks**
+
+One more thing is remaining to finish configuring the Stripe side. And that is webhooks. By setting webhooks we allowing Stripe to communicate with your platform when any changes happen on Stripe’s site like subscription update, cancel, payment failed, etc. so that your marketplace can take actions to manage the vendor account on your marketplace. zCart has everything configured for you, now you just have to set the URL and the secret key for secure communications.
+
+Go to Developers Webhooks section from the sidebar and click the Add endpoint button. On the next window enter https://your_domain/stripe/webhook in the Endpoint URI field and add below events on the Events to send section.
+
+<center><img src="./anne/stripe6.png"></center>
+Stripe Webhooks Events
+
+Events need to enabled
+
+- customer.subscription.updated
+- customer.subscription.deleted
+- customer.updated
+- customer.deleted
+- invoice.payment_action_required
+
+After adding the webhook endpoint URL and events. Open the endpoint details and get the Signing secret value to secure the communication.
+
+<center><img src="./anne/stripe5.png"></center>
+Stripe webhooks secret
+
+You have done Stripe connect API configurations, please open the .env file and update these keys with your values.
+
+- STRIPE_KEY=your_stripe_publishable_key
+- STRIPE_SECRET=your_stripe_secret_key
+- STRIPE_CLIENT_ID=your_stripe_client_id
+- STRIPE_WEBHOOK_SECRET=stripe_webhook_signing_secret
+
+From now the application will automatically handle canceling subscriptions that have too many failed charges (as defined by your Stripe settings), customer updates, customer deletions, subscription updates, and credit card changes.
+
+Now your marketplace can use Stripe APIs to manage payments. But still, we’re not done. You need to create subscriptions and prices on the Stripe dashboard and also in your marketplace dashboard to charge vendors. Please check this section of the documentation for help.
+
+> Note! Enable View test data to get test credentials on the Stripe dashboard.
+
+::: warning
+
+> The stripe platform account and the connected account (seller) can’t be the same account. To test stripe connect use different accounts.
+
+:::
+
+Now from your platform’s admin Dashboard navigate to SETTINGS CONFIGURATION PAYMENT METHOD tab and enable Stripe payment method so that your marketplace vendors can accept credit card payment.
+
+### Units and Formats
+
+In this section, you can set measurement units and data formats and some platform rules that will be used to control the marketplace. There are two tabs combined together to manage this section. BESIC SETTINGS and FORMATS
+
+SETTINGS → CONFIGURATION → BASIC SETTINGS
+SETTINGS → CONFIGURATION → FORMATS
+
+<!-- <center><img src="./anne/unitformat.png"></center> -->
+
+## Optional Configurations
+
+This section will guide you to configure some optional modules. This is not mandatory configurations for your marketplace but to allow you to make it more personal. Like you can set what will be the color of order invoice generated from your marketplace.
+
+### Full-text Search with Algolia/Configure Algolia Search
+
+The system has a built-in search functionality and pre-configured to enable full-text search. But if you’re a fan of Algolia, of course you can use your favorite search provider.
+
+Info! Algolia is a premium service and may cost you to use the service! Check the Algolia site for more info.
+
+To configure Algolia, you need your algolia APP ID and SECRET KEY from Algolia. Head to your Algolia dashboard and go to the API keys section. You’ll find the API keys there. Now open the .env file and update these keys with your values.
+
+- SCOUT_DRIVER=algolia
+- ALGOLIA_APP_ID=YourApplicationID
+- ALGOLIA_SECRET=YourAdminAPIKey
+
+You don’t have to do anything more. The application will take care of everything you need to index your data to Algolia.
+
+### Social Media Login
+
+The system is integrated with Facebook and Google+ to allow social media login for Customers. You have to configure your marketplace to use this feature.
+
+#### Facebook Login
+
+To enable Facebook login, go to the [Facebook Developer](https://developers.facebook.com/apps/) site and create an app for your marketplace. Now login into your developer account Dashboard. From the list of products select Facebook Login and click the Set Up button.
+
+<center><img src="./anne/fb1.png"></center>
+
+On the next screen select Web and then on the coming screen just give the Site URL and click Save. Ignore the rest of the options and go to the Settings > Basic from the sidebar. All the API credentials you need are here, get the App ID and App Secret. Fill the form with your marketplace information and Save Changes.
+
+<center><img src="./anne/fb2.png"></center>
+
+Now go to the Facebook Login > Settings from the sidebar. Enable Client OAuth Login and Web OAuth Login. After that give the callback URL like https://your_domain/customer/login/facebook/callback on the Valid OAuth Redirect URIs input field. Customers will be redirected to this URL after authentication. You can ignore the rest of the settings and click Save Changes.
+
+<center><img src="./anne/fb3.png"></center>
+
+The last part of this section is to turn on the Facebook App to use it. You can do it from the top on the same screen. To finish the integration open the .env file and update these keys with your values.
+
+- FB_CLIENT_ID=your_fb_client_id
+- FB_CLIENT_SECRET=your_fb_client_secret
+- FB_REDIRECT_URL=redirect_url
+
+#### Google+ Login
+
+Like Facebook, you need to have a project at Google Developer account to get API credentials. If you already configured Google Analytics then you can use the same project. If you need help how to create a project on Google check here and come back this point. Head over to Google API’s site and Select your project. This time finds and enables Google+ API on the API list.
+
+Now go to the Credentials in the sidebar. Click OAuth consent screen tab and fill out the details there.
+
+Now on the same screen go to the Credentials tab on the left. Click Create credentials and choose OAuth client ID from the dropdown list.
+
+<center><img src="./anne/google1.png"></center>
+
+In the OAuth client ID screen, select the type of application, give origin and callback URLs like https://your_domain/customer/login/google/callback
+
+<center><img src="./anne/google2.png"></center>
+
+Get the Client ID and Client Secret in the credentials page. Now open the .env file and update these keys with your values.
+
+- GOOGLE_CLIENT_ID=your_project_client_id
+- GOOGLE_CLIENT_SECRET=your_project_client_secret
+- GOOGLE_REDIRECT_URL=redirect_url
+
+Social login configuration is done. Now customers will be able to login using Facebook and Google accounts.
+
+### Filesystems
+
+The filesystem is the disk space where the application store all the images and other static files. The system provides a powerful filesystem abstraction. The Filesystem integration provides simple to use drivers for working with local filesystems, Amazon S3 and Azure Cloud Storage. Even better, it’s amazingly simple to switch between these storage options.
+
+By default, the platform uses the local public disk. The public disk uses the local driver and stores these files in storage/app/public.
+
+> INFO: To make them accessible from the web, you should create a symbolic link from public/storage to storage/app/public. Most of the case the system will just work out of the box but few servers may cause problems creating the symbolic link.
+
+To change the default filesystem, open settings and in settings choose storage provider. You can Change the file storage from local to s3 and azure.
+
+#### Amazon S3 Configuration
+
+To configure S3, get your own S3 configuration and credentials. Now open the .env file and update these keys with your values from Amazon S3. For convenience, these environment variables match the naming convention used by the AWS CLI.
+
+- S3_ACCESS_KEY
+- S3_SECRET
+- S3_BUCKET_NAME
+- S3_REGION
+- CDN_URL
+
+#### Microsoft Azure Storage
+
+Follow the azure Docs to obtain your own connection string, account name, access key, and cdn url. Then update these credential's with your values from microsoft.
+
+- AZURE_STORAGE_CONNECTION_STRING
+- AZURE_STORAGE_ACCOUNT_NAME
+- AZURE_STORAGE_ACCOUNT_ACCESS_KEY
+- AZURE_STORAGE_CDN_URL
+
+### Invoices
+
+The system has a built-in PDF library to generate beautiful invoices for purchases made on the platform. Customers can download the order invoices from their order detail page. You can configure your preferences for invoices like the Title, paper size, and color, etc.
+
+The platform is all set to generate nicely formatted invoices without any configuration needed. To set your own preferences please open the config/invoice. file and change the default settings.
+
+The default configuration:
+
+    /*
+    |--------------------------------------------------------------------------
+    | Title
+    |--------------------------------------------------------------------------
+    |
+    | Keep it empty to use the default title 'Invoice' that comes from language file.
+    |
+    */
+
+    'title' => '',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Color
+    |--------------------------------------------------------------------------
+    |
+    | Set primary color in hex
+    |
+    */
+
+    'color' => '#007fff',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Document size
+    |--------------------------------------------------------------------------
+    |
+    | Supported document size values are A4, letter, legal
+    |
+    */
+
+    'size' => 'A4',
+
+By default, the system uses paper size A4 and and title Invoice. You can also set the invoice color here, use hexadecimal color code.
+
+TIPs: Keep the title empty to use to allow the script to pick the title from the translated file.
+
+### Google Analytics
+
+The application has a basic visitor analytics system builtin. But if you want to use Google Analytics then the application can get your Google Analytics data on your admin dashboard and report section in place of the built-in system. By configuring Google Analytic API you can see Page views, Sessions, Unique visits, Referrals, and Behaviors of visitors on your marketplace admin dashboard. Before enabling Google Analytics you must configure the application correctly to get the Analytics data.
+
+::: warning
+
+Enabling Google Analytics can cause errors if not configured or misconfigured!
+
+:::
+
+#### Get API credentials
+
+The first thing you’ll need to do is to get some credentials to use Google API. I’m assuming that you’ve already created a Google account and are signed in. Head over to Google API’s site and Select your project. If you don’t have any then create a new project and select. Now click ENABLE APIS AND SERVICES on the Dashboard section.
+
+<center><img src="./anne/google-analytics1.png"></center>
+
+Next, in the list of available API’s select Google Analytics API. On the next screen click ENABLE button.
+
+<center><img src="./anne/google-analytics2.png"></center>
+
+Now that you’ve created a project that has access to the Analytics API it’s time to download a file with these credentials. Click Credentials in the sidebar. Click Create credentials and choose Service account key from the dropdown list.
+
+<center><img src="./anne/google-analytics3.png"></center>
+
+On the next screen click over the New service account field and give the service account a name on the Service account name field and set the Role as project Owner. You can name it anything you’d like. Copy the email address in the service account id, we’ll use this email address later on in this guide. Select JSON as the key type and click Create button. A JSON file will be download to your computer, we’ll use this file to connect with Google.
+
+<center><img src="./anne/google-analytics4.png"></center>
+
+Now you have the API credentials on your local computer’s download location. Rename the file to analytics-api.json and upload to the file to your project at the ../storage/app/ directory.
+
+#### Grant permission and Get the View ID
+
+If you don’t have a Google Analytics account, create one from Google Analytics site. Go to Admin section from the sidebar and click User Management
+
+<center><img src="./anne/google-analytics5.png"></center>
+
+Now click the button and then select Add new users
+
+<center><img src="./anne/google-analytics6.png"></center>
+
+On the next screen in the Email addresses field paste the client_email email address from the analytics-api.json we got from the Google API site. Check the Read & Analyze and click Add to finish.
+
+<center><img src="./anne/google-analytics7.png"></center>
+
+> TIPS: If you forgot to copy the service account id email address, you can get it from the JSON file you downloaded in the previous step.
+
+Go back to Admin section again and click View Settings. We need the View ID displayed there.
+
+<center><img src="./anne/google-analytics8.png"></center>
+
+Open the .env file and update ANALYTICS_VIEW_ID with the value you got from Google.
+
+- ANALYTICS_VIEW_ID=your_view_id
+
+We’ve done the Google Analytics configuration and ready to view the Analytics on the application Dashboard. To enable Google Analytics navigate to:
+
+SETTINGS → CONFIGURATION → REPORTS
+
+> Note: Only admin level user can see Google Analytics reports.
+
+## Appearance
+
+This article will help you to change the storefront theme as well as merchant landing themes. You can create banners, sliders and manage theme with easy to understand interface.
+
+### Banners
 
 Banners are used to make your store attractive to the customers.These banners contain image of sales, discounts and more.
 
@@ -278,18 +657,125 @@ You can export all yours banners in the csv format by going to the manage banner
 
 <center><img src="./anne/excel-and-search.png"></center>
 
-## Products
+## User Management
+
+There are two types of users on the system, platform users who manage the marketplace and merchant users belong to a vendor to manage their store. All users get access to different modules based on the permission given by their role they belong. Only the super admin has full control over the system and the merchant has full access on his/her store. Also, merchant type users can get access to some platform modules permitted by the platform.
+
+> Info! You can not access or modify users who have more privilege than you. You can only create users with less privilege than yourself.
+
+### User Roles
+
+A user must have a role to get access to this system. You can create a user role that belongs to the platform or merchant. Platform type roles can be permitted to access platform modules and common modules like category module and tax module. Vendor admin can create users using merchant type roles to manage their store. You can also allow vendors to create their own user roles with own permission set.
+
+### Create Users
+
+You can add an unlimited number of users. A user created on the platform admin panel can be assigned to a platform type role. The store owner can add staffs from merchant admin panel to manage their store.
+
+> TIPS: To assist vendors to add staff to their store, platform users can login to vendor account if permitted.
+
+## Catalog
+
+The catalog is combined of product, category, product attribute and manufacturer modules. With the help of this modules, you will be able to manage your marketplace product catalog effortlessly. All the functionalities you need is there.
+
+### Categories
+
+- Categories is an important and essential feature which provide a relief to the customer to select and shop according to their requirement. A product can belong to multiple categories at a time. (for example, Fashion,Electronics )
+
+- Categories uses tree structure mean categories are defined on several levels. And toppest level categories called as root categories. You can create root categories,and then also create categories on second, third, etc. level within your root category. They are referred to as subcategories or child categories.
+
+- You will see all categories in tree structure. And by clicking on any category you will be able to edit the category.
+
+<center><img src="./anne/categories.png"></center>
+
+#### Create category And Edit category
+
+- In sidebar, go to Products → Categories.
+- Click Add New Category.
+
+<center><img src="./anne/category1.png"></center>
+
+- Fill the category details as per your need.
+
+<center><img src="./anne/category2.png"></center>
+
+- In case you want to create a root category, you don't have to select parent category field.
+- In case you want to create sub category , you can choose a parent category.
+
+- Click Category image to upload an image for your category. You can upload an image that represents your category or an image of a product from the category.
+
+- Enter the description. You can describe what kind of products are in that category, or just leave it blank.
+
+-And you can also enable category features like- megamenu,active.
+
+- Edit category is same as create new category, just select the category in tree which you want to edit. Now you can update fields.
+
+### Brands
+
+In the brand section there are the brands of the different product that are available in the store can be seen.
+Brand used for better navigation in product for customer.
+
+- In sidebar, go to Products → Brands.
+
+**Create new Brand**
+
+- Click on plus icon for create new brand.
+- Now you can fill fill form of brand, you can also provide social media link of the brand.
+- You can also upload image of the brand.
+- Click on save icon at right side of bottom.
+
+<center><img src="./anne/brand1.png"></center>
+
+**Brands List**
+
+- You can edit,clone and delete brand from here.
+
+<center><img src="./anne/brands.png"></center>
+
+**Brand Export**
+
+- You can export all yours brands in the csv format by going to the manage brands page where the brands grid is displayed. On the right corner of the grid there is an excel logo from where the you can export the csv which will have grid columns.
+
+<center><img src="./anne/excel-and-search.png"></center>
+
+### Sizes
+
+In the size section there are the sizes of the different products. Its like variant of the product , means single a product is available in multiple sizes.
+
+- Customer can choose the product size accoring to his/her need.
+
+- In sidebar, go to Products → Sizes.
+
+**Create new Size**
+
+- Click on plus icon for create new size.
+- Now you can fill fill form for size details.
+- Click on save icon at right side of bottom.
+
+<center><img src="./anne/size.png"></center>
+
+**Size List**
+
+- You can edit,clone and delete size from here.
+
+<center><img src="./anne/sizes.png"></center>
+
+**Size Export**
+
+- You can export all yours sizes in the csv format by going to the manage sizes page where the sizes grid is displayed. On the right corner of the grid there is an excel logo from where the you can export the csv which will have grid columns.
+
+<center><img src="./anne/excel-and-search.png"></center>
+
+### Products
 
 Products are the physical goods, digital files, and services that you sell. To create a product, you need to specify the name and upload product images. In addition, you can add product details that help your clients better understand the product. For example add available sizes, SKU, description, etc. You don't have to provide every detail for each product.
 
-- From your Anne admin panel, in sidebar go to Products → All Products to view and edit product details.
+- In sidebar, go to Products → All Products.
+- You can view and edit product details from here.
 - To add many products at once, you can upload products in bulk using a CSV-formatted import file.
-
-### All Products
 
 #### Adding a new product
 
-- From your Anne admin panel, go to Products → All Products → Add New Product.
+- In sidebar, go to Products → All Products → Add New Product.
 - Click on Add New Product button and it will redirect to product edit page.
 
 ##### Images/Video
@@ -297,13 +783,13 @@ Products are the physical goods, digital files, and services that you sell. To c
 - In this section images show your customers what your products look like. Here you can upload images of front, side, underneath, close-up, etc., so customers can see what they are buying in detail.
 - The quality of your product images directly affects your ability to generate sales. Here are some tips
 
-- Each product image should be of uniform size and style across all products you sell.
-- Use high-quality images, so customers can see any fine details.
+  - Each product image should be of uniform size and style across all products you sell.
+  - Use high-quality images, so customers can see any fine details.
 
-**For add Video link**
+- For add Video link
 
-- Click on Add Image/Youtube Link at top right corner of the box and a small window pop up came, and here you can provide youtube link and click on submit.
-- Video will be added to your product
+  - Click on `Add Image/Youtube Link` at top right corner of the box and a small window pop up came, and here you can provide youtube link and click on submit.
+  - Video will be added to your product
 
 <center><img src="./anne/product-edit0.png"></center>
 
@@ -329,7 +815,7 @@ In brand you will have option for select brand, you can also create new brand vi
 
 **Size**
 
-In size you will have to choose size, you can also create new size in case your needy size is not available, then click "Add New" button. And you will be able to create it.
+In size you will have to choose size, you can also create new size in case your needy size is not available, then click `Add New` button. And you will be able to create it.
 
 **Color**
 
@@ -437,7 +923,7 @@ Whenever you select the Television category , it will automatically show all the
 
 Some products complement each other well and it’s best to buy them together. Use the related products feature to display the You may also like section in your online store as well as to cross-sell products in the cart. This feature helps you promote certain products and encourages customers to buy more.
 
-- From your Anne admin panel, go to Products.
+- In sidebar, go to Products.
 - Open the product page where you wish to recommend related products.
 - Open the Related Products tab.
 
@@ -469,7 +955,7 @@ A price is mrp(marketing price).
 
 #### Product Categories
 
-- In product edit go to right bottom categories section.
+- In product edit, go to right bottom categories section.
 
   - Categories help customers to faster navigate through the store and find the products as per their need.
   - Categories are groups of products that a product is included in. The product can be assigned to one category or several categories.
@@ -480,7 +966,7 @@ A price is mrp(marketing price).
 
 #### Product ribbons
 
-- In product edit go to right bottom Product Ribbons section.
+- In product edit, go to right bottom Product Ribbons section.
 
 - Product ribbons are colored labels that are displayed in your catalog above product images. They can help visually highlight certain products on your storefront. These tags contain your custom text.
 
@@ -504,43 +990,27 @@ A price is mrp(marketing price).
 
 Click Preview Product to see how this product will look in your online store.
 
-### Categories
+### Products Bulk Import
 
-- Categories is an important and essential feature which provide a relief to the customer to select and shop according to their requirement. A product can belong to multiple categories at a time. (for example, Fashion,Electronics )
+The product bulk upload feature will help you to import your old product list into your catalog system. There is a CSV template to help you, use the template to prepare your product list.
 
-- Categories uses tree structure mean categories are defined on several levels. And toppest level categories called as root categories. You can create root categories,and then also create categories on second, third, etc. level within your root category. They are referred to as subcategories or child categories.
+- In Product list page, click on `Import Products`.
 
-- You will see all categories in tree structure. And by clicking on any category you will be able to edit the category.
+<center><img src="./anne/product-import.png"></center>
 
-<center><img src="./anne/categories.png"></center>
+- It will redirect you to product import page. There you can import csv file.
 
-#### Create category And Edit category
+::: warning
 
-- From your Anne admin, panel sidebar go to Products → Categories.
-- Click Add New Category.
+The first row of the template CSV file is the header. Don’t change this row. The system needs this row unchanged to populate the product into the database.
 
-<center><img src="./anne/category1.png"></center>
-
-- Fill the category details as per your need.
-
-<center><img src="./anne/category2.png"></center>
-
-- In case you want to create a root category, you don't have to select parent category field.
-- In case you want to create sub category , you can choose a parent category.
-
-- Click Category image to upload an image for your category. You can upload an image that represents your category or an image of a product from the category.
-
-- Enter the description. You can describe what kind of products are in that category, or just leave it blank.
-
--And you can also enable category features like- megamenu,active.
-
-- Edit category is same as create new category, just select the category in tree which you want to edit. Now you can update fields.
+:::
 
 ### Reviews
 
 Review is the nothing but a comment box in which customers give their reviews about the product that they have ordered & used. In this the customer gives some ratings to the product in a form of stars and message.
 
-- In Sidebar, Go to Products → Reviews.
+- In sidebar, go to Products → Reviews.
 
 <center><img src="./anne/reviews.png"></center>
 
@@ -556,7 +1026,7 @@ Review is the nothing but a comment box in which customers give their reviews ab
 
 Popular Searches used for better navigation in product for customer.
 
-- In sidebar, Go to Products → Popular Searches.
+- In sidebar, go to Products → Popular Searches.
 
 **Create new Popular Searches**
 
@@ -578,61 +1048,11 @@ Popular Searches used for better navigation in product for customer.
 
 <center><img src="./anne/excel-and-search.png"></center>
 
-### Brands
+### Manufacturers
 
-In the brand section there are the brands of the different product that are available in the store can be seen.
-Brand used for better navigation in product for customer.
+You can manage manufacturers or brands from this section. Marketplace visitor will be able to visit the BRAND page to see all listing from the same brands but different vendors. This feature will add extra values to your marketplace.
 
-- In sidebar, go to Products → Brands.
-
-**Create new Brand**
-
-- Click on plus icon for create new brand.
-- Now you can fill fill form of brand, you can also provide social media link of the brand.
-- You can also upload image of the brand.
-- Click on save icon at right side of bottom.
-
-<center><img src="./anne/brand1.png"></center>
-
-**Brands List**
-
-- You can edit,clone and delete brand from here.
-
-<center><img src="./anne/brands.png"></center>
-
-**Brand Export**
-
-- You can export all yours brands in the csv format by going to the manage brands page where the brands grid is displayed. On the right corner of the grid there is an excel logo from where the you can export the csv which will have grid columns.
-
-<center><img src="./anne/excel-and-search.png"></center>
-
-### Sizes
-
-In the size section there are the sizes of the different products. Its like variant of the product , means single a product is available in multiple sizes.
-
-- Customer can choose the product size accoring to his/her need.
-
-- In sidebar go to Products → Sizes.
-
-**Create new Size**
-
-- Click on plus icon for create new size.
-- Now you can fill fill form for size details.
-- Click on save icon at right side of bottom.
-
-<center><img src="./anne/size.png"></center>
-
-**Size List**
-
-- You can edit,clone and delete size from here.
-
-<center><img src="./anne/sizes.png"></center>
-
-**Size Export**
-
-- You can export all yours sizes in the csv format by going to the manage sizes page where the sizes grid is displayed. On the right corner of the grid there is an excel logo from where the you can export the csv which will have grid columns.
-
-<center><img src="./anne/excel-and-search.png"></center>
+<center><img src="./anne/manufacture.png"></center>
 
 ## Import And Export
 
@@ -730,6 +1150,14 @@ In Order list when click on any order right at arrow sign.
 - Customer-> Name and address of the customer will show up in this block.
 - Payment Details-> The payment method selected to place the order.
 
+#### Create Order
+
+Sometimes you may need to create an order from the admin panel. Yes, you can do it! The system has an easy to use interface with all needed features to create an order.
+
+Go to orders and then click over the CREATE ORDER. Next screen finds the customer you want to create the order for. Type the name/email/nice name, the result will show up soon. Select the customer and click PROCEED button to populate the order form. In same way you have to select the products, you can select multiple products.
+
+The order creation screen is self-descriptive. You can save the order to proceed later by choosing SAVE AND BACK or you can choose PLACE THE ORDER to process the order right way.
+
 ### Abandoned Carts
 
 - Abandonment Carts is an ecommerce feature where vendor can see all the abandoned cart ,and m anage them.
@@ -799,6 +1227,28 @@ In Order list when click on any order right at arrow sign.
 
 <center><img src="./anne/excel-and-search.png"></center>
 
+## Manage Vendors
+
+A vendor can register on the merchant landing page and you don’t have to do anything at all. Sometime you may want to add a vendor from the back office and you can do that! To create a new vendor, you just have to provide some basic information and the system will send an email with instructions to the vendor to complete the registration process. Of course, you have full control to manage vendors from your admin panel.
+
+You can offer a trial period with your subscription plans and also can set if a vendor needs to add a card on the time of registration. Read this article to manage subscription plans.
+
+### Vendor Approval
+
+If you set the VENDOR NEEDS APPROVALS on at SETTINGS CONFIGURATION section, then every vendor will require manual approval from admin/platform to get live.
+
+The sysmol means the vendor is active and the sysmol means need approval. You can click over the symbol to activate or deactivate the vendor. Also you can use the symbol on the option panel to do the exact same.
+
+### Vendor Verification
+
+This is one of the most requested features from the customers. This feature will help your marketplace to prevent fraud and gain trust from buyers. A shiny verified badge will be displayed on the side of vendor name on the marketplace, so the customers will know which vendors are verified.
+
+Vendors can upload the required documents from the profile page and admin will see the request on the dashboard.
+
+When a vendor uploads documents to verify you’ll see the PENDING VERIFICATIONS box with the number of requests.
+
+Click over the symbol to download the document and do manual inspection. After you’re satisfied with the submitted documents you need to click over the VERIFY button to complete the action. After you’ve done you can also delete the file using the button to keep your system clean.
+
 ## Customers
 
 #### User List
@@ -819,7 +1269,7 @@ In Order list when click on any order right at arrow sign.
 
 **To search customers**
 
-- From your Anne admin panel, go to Customers.
+- In sidebar, go to Customers.
 - Search for a full name or email address.
 
 <center><img src="./anne/excel-and-search.png"></center>
@@ -830,7 +1280,7 @@ In Order list when click on any order right at arrow sign.
 
 **To export specific customer list**
 
-- From your Anne admin panel, go to Customers page.
+- In sidebar, go to Customers page.
 - Click on the Excel logo.
 - As a result, a CSV file will be downloaded to your computer.
 
@@ -840,7 +1290,7 @@ You can change an existing customer profile to update their information.
 
 **To edit a customer’s information**
 
-- From your Anne admin panel, go to Customers.
+- In sidebar, go to Customers.
 - Click the pencil icon of the customer profile you want to edit.
 - In the Edit customer dialog, you can change a customer’s
 
@@ -853,6 +1303,30 @@ You can change an existing customer profile to update their information.
     Click Save to confirm your changes
 
 <center><img src="./anne/customer-edit.png"></center>
+
+## Discounts
+
+Offering a discount is the best way to get attraction from buyers. You can create an unlimited number of coupons for your store and you have full control over the promotions. You can set the validity time period, total quantity, how many times a single buyer can get the discount and more control. The coupon value can a fixed amount or a percentage of the total order amount.
+
+**Coupon for specific customer/s**
+You can create coupons that can be used by a single customer or specific group of customers. To limit the coupon to customers check the LIMITED TO CUSTOMERS option and select customer/s.
+
+**Coupon for specific shipping zone/s**
+You can create coupons that can be used by the customers from a specific shipping zone of zones. To limit the coupon to shipping zone check the LIMITED TO SHIPPING ZONE option and select shipping zone/s.
+
+## Support Desk
+
+The system has built-in module for customer support Messages
+
+### Messages
+
+A complete mail inbox module where you can receive, send and draft messages. The message module design to communicate with customers (customer-merchant and customer-platform). Vendors have their own inbox to manage the communications.
+The contact us form messages also will be in platform inbox.
+
+### Refunds
+
+When a customer opens a dispute he/she can also request for a partial or full refund of the order total. You can also initiate a refund for an order from your admin panel.
+If you’ve proper permission, you can either approve or decline the refund request in this section.
 
 ## Monitoring
 
@@ -880,7 +1354,7 @@ Utility is an important characteristic of business is the creation of utilities 
 ### Blogs
 
 - A blog is a discussion or informational of store features.
-- From your admin panel go to Utilities → Blogs in sidebar.
+- In sidebar, go to Utilities → Blogs.
 - You will see the list of blogs here.
 
 <center><img src="./anne/blogs.png"></center>
@@ -906,7 +1380,7 @@ Utility is an important characteristic of business is the creation of utilities 
 
 - FAQ's are series of questions paired with answers, that provides basic information.
 - These are very helpful for customers to find their resolutions easily.
-- From your admin panel go to Utilities → FAQ in sidebar.
+- In sidebar, go to Utilities → FAQ.
 
 <center><img src="./anne/faqs.png"></center>
 
