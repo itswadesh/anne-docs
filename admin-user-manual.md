@@ -3,7 +3,7 @@ title: Store Manual Documentation
 date: 2021-09-08 09:40:12
 ---
 
-# User Manual
+# Admin Manual
 
 ## Getting started with Anne
 
