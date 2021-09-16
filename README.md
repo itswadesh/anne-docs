@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/doc.png
 actionText: Get Started →
-actionLink: /installation-instructions.html
+actionLink: /admin-user-manual.html
 # features:
 #   - title: Progressive
 #     details: Offline Ready Progressive Web App, Bleeding edge, Fast, Lightweight SPA (single page application) ecommerce.
@@ -72,5 +72,4 @@ Misiki is an evolution of Arialshop Javascript ecommerce first released 36 Earth
 
 ## Links
 
-- [Installation](/installation-instructions.html)
 - [Store User Manual](/admin-user-manual.html)

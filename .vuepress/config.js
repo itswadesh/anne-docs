@@ -21,7 +21,7 @@ module.exports = {
     sidebar: 'auto',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Installation', link: '/installation-instructions.html' },
+      // { text: 'Installation', link: '/installation-instructions.html' },
       { text: 'Store User Manual', link: '/admin-user-manual.html' },
       // { text: 'Guide', link: '/guide.html' },
       // { text: 'Settings', link: '/settings.html' },
