@@ -427,7 +427,7 @@ SETTINGS → CONFIGURATION → FORMATS
 
 This section will guide you to configure some optional modules. This is not mandatory configurations for your marketplace but to allow you to make it more personal. Like you can set what will be the color of order invoice generated from your marketplace.
 
-### Full-text Search with Algolia/Configure Algolia Search
+<!-- ### Full-text Search with Algolia/Configure Algolia Search
 
 The system has a built-in search functionality and pre-configured to enable full-text search. But if you’re a fan of Algolia, of course you can use your favorite search provider.
 
@@ -439,7 +439,7 @@ To configure Algolia, you need your algolia APP ID and SECRET KEY from Algolia. 
 - ALGOLIA_APP_ID=YourApplicationID
 - ALGOLIA_SECRET=YourAdminAPIKey
 
-You don’t have to do anything more. The application will take care of everything you need to index your data to Algolia.
+You don’t have to do anything more. The application will take care of everything you need to index your data to Algolia. -->
 
 ### Social Media Login
 
@@ -487,7 +487,7 @@ Get the Client ID and Client Secret in the credentials page. Now open the .env f
 
 Social login configuration is done. Now customers will be able to login using Facebook and Google accounts.
 
-### Filesystems
+### Image Management
 
 The filesystem is the disk space where the application store all the images and other static files. The system provides a powerful filesystem abstraction. The Filesystem integration provides simple to use drivers for working with local filesystems, Amazon S3 and Azure Cloud Storage. Even better, it’s amazingly simple to switch between these storage options.
 
@@ -1048,11 +1048,11 @@ Popular Searches used for better navigation in product for customer.
 
 <center><img src="./anne/excel-and-search.png"></center>
 
-### Manufacturers
+<!-- ### Manufacturers
 
 You can manage manufacturers or brands from this section. Marketplace visitor will be able to visit the BRAND page to see all listing from the same brands but different vendors. This feature will add extra values to your marketplace.
 
-<center><img src="./anne/manufacture.png"></center>
+<center><img src="./anne/manufacture.png"></center> -->
 
 ## Import And Export
 
@@ -1227,7 +1227,7 @@ The order creation screen is self-descriptive. You can save the order to proceed
 
 <center><img src="./anne/excel-and-search.png"></center>
 
-## Manage Vendors
+<!-- ## Manage Vendors
 
 A vendor can register on the merchant landing page and you don’t have to do anything at all. Sometime you may want to add a vendor from the back office and you can do that! To create a new vendor, you just have to provide some basic information and the system will send an email with instructions to the vendor to complete the registration process. Of course, you have full control to manage vendors from your admin panel.
 
@@ -1247,7 +1247,7 @@ Vendors can upload the required documents from the profile page and admin will s
 
 When a vendor uploads documents to verify you’ll see the PENDING VERIFICATIONS box with the number of requests.
 
-Click over the symbol to download the document and do manual inspection. After you’re satisfied with the submitted documents you need to click over the VERIFY button to complete the action. After you’ve done you can also delete the file using the button to keep your system clean.
+Click over the symbol to download the document and do manual inspection. After you’re satisfied with the submitted documents you need to click over the VERIFY button to complete the action. After you’ve done you can also delete the file using the button to keep your system clean. -->
 
 ## Customers
 
@@ -1320,13 +1320,13 @@ The system has built-in module for customer support Messages
 
 ### Messages
 
-A complete mail inbox module where you can receive, send and draft messages. The message module design to communicate with customers (customer-merchant and customer-platform). Vendors have their own inbox to manage the communications.
-The contact us form messages also will be in platform inbox.
+A messaging module where you can receive messages. The message module design to receive communications from customers (customer-merchant and customer-platform).
+The contact us form messages will be in platform inbox.
 
-### Refunds
+<!-- ### Refunds
 
 When a customer opens a dispute he/she can also request for a partial or full refund of the order total. You can also initiate a refund for an order from your admin panel.
-If you’ve proper permission, you can either approve or decline the refund request in this section.
+If you’ve proper permission, you can either approve or decline the refund request in this section. -->
 
 ## Monitoring
 
